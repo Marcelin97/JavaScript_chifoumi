@@ -1,24 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <!-- head -->
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="coder un jeu en javascript pierre feuille ciseaux"
     />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <title>Pierre Feuille Ciseaux</title>
   </head>
+  <!-- head -->
+  <!-- body -->
   <body>
-    <header></header>
+    <!-- header -->
+    <header>
+      <a href="./index.html">Chifoumi ✊🤚✌️</a>
+    </header>
+    <!-- End of header-->
+    <!-- main content -->
     <main>
-      <!-- main content -->
       <section id="titre">
-        <h1>Pierre Feuille Ciseaux</h1>
+        <h1>Pierre, Feuille, Ciseaux</h1>
+        <blockquote
+          cite="https://www.topito.com/top-variantes-pierre-feuille-ciseaux-monde#:~:text=Autour%20du%20XVI%C3%A8me%20si%C3%A8cle%2C%20le,vient%20le%20nom%20%C2%AB%20chifoumi%20%C2%BB."
+        >
+          <p>
+            Autour du XVIème siècle, le « shoushiling » (qui signifie « jeu des
+            trois signes ») est inventé en Chine mais ce sont les Japonais qui
+            ont changé les signes pour une pierre, une feuille et des ciseaux.
+            En japonais, ce jeu s'appelle le Hi-fu-mi et c'est de là que vient
+            le nom «chifoumi»
+          </p>
+        </blockquote>
+        <a class="btn btn-acc" role="button" href="#application"
+          >Venez découvrir ce jeux</a
+        >
       </section>
-      <section class="regt">
+      <!-- règlement -->
+      <section id="regt">
         <h2>Les règles :</h2>
         <ul>
           <li>La pierre écrase les ciseaux et gagne.</li>
@@ -26,34 +48,33 @@
           <li>Les ciseaux découpent la feuille et gagnent.</li>
         </ul>
       </section>
+      <!-- game -->
       <section id="application">
         <div id="container-game">
-          <div class="player-container">
+          <div class="player-container btn btn-player">
             <div class="name">Joueur 1</div>
             <div id="player-1">👊</div>
           </div>
           <div id="result">roulement de tambour...</div>
 
-          <div class="player-container">
+          <div class="player-container btn btn-player">
             <div class="name">Joueur 2</div>
             <div id="player-2">✋</div>
           </div>
         </div>
-        <div id="play-btn">JOUONS!</div>
+        <div id="play-btn" class="btn btn-acc">JOUONS!</div>
       </section>
     </main>
+    <!-- End of main content -->
+    <!-- Footer-->
     <footer>
-      <p>
-        Autour du XVIème siècle, le « shoushiling » (qui signifie « jeu des
-        trois signes ») est inventé en Chine mais ce sont les Japonais qui ont
-        changé les signes pour une pierre, une feuille et des ciseaux. En
-        japonais, ce jeu s'appelle le Hi-fu-mi et c'est de là que vient le nom «
-        chifoumi »
-      </p>
+      <p>Pierre, feuille, ciseaux, tous droits réservés</p>
     </footer>
+    <!-- End of Footer-->
 
     <!-- Les scripts  -->
     <script src="./app.js"></script>
     <!-- Les scripts -->
+    <!-- body -->
   </body>
 </html>
